@@ -1,0 +1,7 @@
+﻿# Ignorar artefactos de compilación y editor
+**/target/
+**/bin/
+**/.idea/
+**/.vscode/
+*.class
+*.log
