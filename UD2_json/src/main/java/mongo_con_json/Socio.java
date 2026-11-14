@@ -15,7 +15,6 @@ public class Socio {
 	// que asigna el campo a sí mismo; debería ser this.Num_socio = num_socio.
 	// Lo dejo tal cual para no modificar el código.
 	public Socio(String nombre, int num_socio) {
-		super();
 		this.nombre = nombre;
 		this.Num_socio = Num_socio;
 	}
