@@ -1,67 +1,28 @@
 package ejercicio1;
 
-import com.google.gson.annotations.SerializedName;
-
-/**
- * POJO que representa una persona de la colección "Personas" de MongoDB.
- * Solo contiene los atributos de la persona, sin los datos que la relacionan con un coche.
- */
+// POJO: ficha de una persona. Solo tiene los datos de la persona,
+// no los datos que la relacionan con un coche.
+// Los nombres de los campos deben ser IGUALES a las claves del JSON,
+// porque Gson los usa para rellenar el objeto.
 public class Persona {
 
-    // @SerializedName indica el nombre que tiene el campo en el JSON/MongoDB,
-    // porque en Java usamos camelCase (idPersona) y en la base de datos es "id_persona".
-    @SerializedName("id_persona")
-    private int idPersona;
+    private String nombre;     // "nombre" en MongoDB
+    private String apellidos;  // "apellidos" en MongoDB
+    private int id_persona;    // "id_persona" en MongoDB
+    private String City;       // "City" en MongoDB (con mayúscula, igual que en la base de datos)
 
-    private String nombre;
+    // Constructor vacío: Gson lo necesita para crear la persona antes de rellenarla.
+    public Persona() { }
 
-    private String apellidos;
+    public String getNombre()     { return nombre; }
+    public String getApellidos()  { return apellidos; }
+    public int getIdPersona()     { return id_persona; }
+    public String getCity()       { return City; }
 
-    // En la BD el campo se llama "City" (con mayúscula), por eso se mapea aquí.
-    @SerializedName("City")
-    private String city;
-
-    // Constructor vacío: Gson lo necesita para crear el objeto al convertir el JSON.
-    public Persona() {
-    }
-
-    // Getters y setters: permiten leer y modificar los atributos desde fuera de la clase.
-    public int getIdPersona() {
-        return idPersona;
-    }
-
-    public void setIdPersona(int idPersona) {
-        this.idPersona = idPersona;
-    }
-
-    public String getNombre() {
-        return nombre;
-    }
-
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
-    }
-
-    public String getApellidos() {
-        return apellidos;
-    }
-
-    public void setApellidos(String apellidos) {
-        this.apellidos = apellidos;
-    }
-
-    public String getCity() {
-        return city;
-    }
-
-    public void setCity(String city) {
-        this.city = city;
-    }
-
-    // Se sobrescribe toString() para que System.out.println muestre el contenido del objeto.
+    // toString: así se ve la persona al imprimirla con System.out.println.
     @Override
     public String toString() {
-        return "Persona [idPersona=" + idPersona + ", nombre=" + nombre
-                + ", apellidos=" + apellidos + ", city=" + city + "]";
+        return "Persona [nombre=" + nombre + ", apellidos=" + apellidos
+                + ", id_persona=" + id_persona + ", City=" + City + "]";
     }
 }
