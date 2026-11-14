@@ -27,11 +27,11 @@ public class Conectar_bd {
 		PreparedStatement pstmt = null;
 		ResultSet rs = null;
 		DataSource ds;
+		Properties propiedades = new Properties();
 		
 		// Variables auxiliares para leer y mostrar datos.
 		int vid, result, vcount ;
 		String vnombre, vnomeq, sql, vequipo;
-		Properties propiedades = new Properties();
 		try {
 			// Cargamos la configuración de la conexión (URL, usuario, contraseña...) desde un fichero.
 			// Nota: la ruta usa \ de Windows; en otros sistemas convendría usar / o Paths.
