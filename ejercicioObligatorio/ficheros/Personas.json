@@ -1,0 +1,65 @@
+[
+  {
+    "_id": {
+      "$oid": "652ae938d780d14d0193ff50"
+    },
+    "nombre": "Carlos",
+    "apellidos": "Martín Navarro",
+    "id_persona": 1,
+    "City": "Madrid"
+  },
+  {
+    "_id": {
+      "$oid": "68de08aba398307d0d2a8fcf"
+    },
+    "nombre": "Ana",
+    "apellidos": "Sánchez Ruiz",
+    "id_persona": 2,
+    "City": "London"
+  },
+  {
+    "_id": {
+      "$oid": "652ae938d780d14d0193ff53"
+    },
+    "nombre": "Juan",
+    "apellidos": "García Pérez",
+    "id_persona": 3,
+    "City": "London"
+  },
+  {
+    "_id": {
+      "$oid": "652ae938d780d14d0193ff56"
+    },
+    "nombre": "Maria",
+    "apellidos": "López Martínez",
+    "id_persona": 4,
+    "City": "London"
+  },
+  {
+    "_id": {
+      "$oid": "68e3ea67d70133edca49d125"
+    },
+    "nombre": "Luis",
+    "apellidos": "Fernández Gómez",
+    "id_persona": 5,
+    "City": "Paris"
+  },
+  {
+    "_id": {
+      "$oid": "68e3ea67d70133edca49d126"
+    },
+    "nombre": "Elena",
+    "apellidos": "Torres Molina",
+    "id_persona": 6,
+    "City": "Valencia"
+  },
+  {
+    "_id": {
+      "$oid": "68e3ea67d70133edca49d127"
+    },
+    "nombre": "Pablo",
+    "apellidos": "Romero Gil",
+    "id_persona": 7,
+    "City": "Sevilla"
+  }
+]

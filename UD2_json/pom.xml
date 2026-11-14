@@ -34,10 +34,5 @@
     <version>1.4</version>
     <scope>compile</scope>
 </dependency>
-  	<dependency>
-  		<groupId>AD</groupId>
-  		<artifactId>UD1_MongoDB_Biblioteca</artifactId>
-  		<version>0.0.1-SNAPSHOT</version>
-  	</dependency>
   </dependencies>
 </project>

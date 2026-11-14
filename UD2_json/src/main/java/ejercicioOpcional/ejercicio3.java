@@ -6,6 +6,7 @@ import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 
+// Ejercicio opcional 3: mostrar el plato de tipo "Primero" y sus ingredientes.
 public class ejercicio3 {
 	public static void main(String[] args) {
 		JSONParser parse = new JSONParser();
@@ -15,9 +16,11 @@ public class ejercicio3 {
 			JSONArray array = (JSONArray) parse.parse(new FileReader("ficheros/cocina.json"));
 			for(Object cociOBJ: array) {
 				coci=(JSONObject) cociOBJ;
+				// Tipo de plato (por ejemplo "Primero", "Segundo", "Postre").
 				tipo = (String) coci.get("tipo");
 				if(tipo.equals("Primero")) {
 					System.out.println("el plato de primero es: "+coci.get("nombre"));
+					// Recorremos los ingredientes del plato y mostramos su nombre.
 					JSONArray ingredientes = (JSONArray) coci.get("ingredientes");
 					for(Object ingreObj:ingredientes) {
 						ingre = (JSONObject) ingreObj;

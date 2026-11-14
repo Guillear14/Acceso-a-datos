@@ -1,0 +1,51 @@
+[
+  {
+    "_id": 1,
+    "id_persona": 4,
+    "id_car": 104,
+    "fechaVenta": "2025-01-15",
+    "precioVenta": 20000
+  },
+  {
+    "_id": 2,
+    "id_persona": 4,
+    "id_car": 106,
+    "fechaVenta": "2025-02-10",
+    "precioVenta": 900
+  },
+  {
+    "_id": 3,
+    "id_persona": 2,
+    "id_car": 102,
+    "fechaVenta": "2025-03-05",
+    "precioVenta": 1900
+  },
+  {
+    "_id": 4,
+    "id_persona": 2,
+    "id_car": 107,
+    "fechaVenta": "2025-04-12",
+    "precioVenta": 15000
+  },
+  {
+    "_id": 5,
+    "id_persona": 5,
+    "id_car": 108,
+    "fechaVenta": "2025-05-20",
+    "precioVenta": 22000
+  },
+  {
+    "_id": 6,
+    "id_persona": 4,
+    "id_car": 101,
+    "fechaVenta": "2025-06-02",
+    "precioVenta": 25000
+  },
+  {
+    "_id": 7,
+    "id_persona": 5,
+    "id_car": 105,
+    "fechaVenta": "2025-07-18",
+    "precioVenta": 5000
+  }
+]

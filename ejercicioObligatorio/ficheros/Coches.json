@@ -1,0 +1,128 @@
+[
+  {
+    "_id": { "$oid": "652ae937d780d14d0193ff52" },
+    "Model": "Citroen",
+    "Year": 2015,
+    "id_car": 101,
+    "Value": 25000,
+    "Matrícula": "12333A",
+    "revisiones": [
+      {
+        "fecha": "2024-03-15",
+        "tipo": "Cambio de aceite"
+      },
+      {
+        "fecha": "2025-01-10",
+        "tipo": "ITV"
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "652ae938d780d14d0193ff54" },
+    "Model": "Ford",
+    "Year": 1995,
+    "id_car": 105,
+    "Value": 5000,
+    "Matrícula": "234566B",
+    "revisiones": [
+      {
+        "fecha": "2023-11-20",
+        "tipo": "Cambio de batería"
+      },
+      {
+        "fecha": "2025-02-18",
+        "tipo": "ITV"
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "652ae938d780d14d0193ff55" },
+    "Model": "Rolls",
+    "Year": 1950,
+    "id_car": 107,
+    "Value": 15000,
+    "Matrícula": "345677C",
+    "revisiones": [
+      {
+        "fecha": "2024-04-12",
+        "tipo": "Restauración interior"
+      },
+      {
+        "fecha": "2025-03-08",
+        "tipo": "ITV"
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "66e7d82823a610baf0694072" },
+    "Model": "Ford",
+    "Year": 2020,
+    "id_car": 102,
+    "Value": 1900,
+    "Matrícula": "2234567F",
+    "revisiones": [
+      {
+        "fecha": "2024-06-05",
+        "tipo": "Cambio de neumáticos"
+      },
+      {
+        "fecha": "2025-05-15",
+        "tipo": "Revisión general"
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "68e3d323d70133edca49d11d" },
+    "Model": "Ford",
+    "Year": 1993,
+    "id_car": 106,
+    "Value": 900,
+    "Matrícula": "334567G",
+    "revisiones": [
+      {
+        "fecha": "2024-01-25",
+        "tipo": "Cambio de frenos"
+      },
+      {
+        "fecha": "2025-04-10",
+        "tipo": "ITV"
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "68e3e612d70133edca49d121" },
+    "Model": "Ford",
+    "Year": 2000,
+    "id_car": 104,
+    "Value": 20000,
+    "Matrícula": "123455V",
+    "revisiones": [
+      {
+        "fecha": "2024-08-22",
+        "tipo": "Cambio de aceite"
+      },
+      {
+        "fecha": "2025-06-03",
+        "tipo": "Revisión general"
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "68e3ec2cd70133edca49d127" },
+    "Model": "Rolls",
+    "Year": 1960,
+    "id_car": 108,
+    "Value": 22000,
+    "Matrícula": "232323G",
+    "revisiones": [
+      {
+        "fecha": "2024-09-14",
+        "tipo": "Restauración de carrocería"
+      },
+      {
+        "fecha": "2025-07-01",
+        "tipo": "ITV"
+      }
+    ]
+  }
+]

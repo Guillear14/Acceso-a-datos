@@ -8,11 +8,13 @@ import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 
+// Ejercicio 5: mostrar los productos con stock menor o igual a 50 y en qué almacén están.
 public class ejercicio5 {
 
 	public static void main(String[] args) {
 		JSONParser parse = new JSONParser();
 		JSONObject prod,ubicacion;
+		// json-simple devuelve los enteros como Long, por eso el stock se guarda en Long.
 		Long stock;
 		String almacen;
 		try {
@@ -23,6 +25,7 @@ public class ejercicio5 {
 				ubicacion = (JSONObject) prod.get("ubicacion");
 				almacen = (String) ubicacion.get("almacen");
 				stock = (Long) prod.get("stock");
+				// Filtro: stock igual o inferior a 50.
 				if( stock<=50) {
 					System.out.println("nombre producto: "+prod.get("nombre_producto")+" "+almacen);
 				}
